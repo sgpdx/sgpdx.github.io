@@ -1,0 +1,14 @@
+Journal for Final Project
+Serena Glick / sglick@pdx.edu / sgpdx (GitHub)
+
+Friday Nov. 7
+----
+1.  Took handwritten notes on the requirements of the project
+2.  Created sgpdx.github.io GitHub Pages site & repo
+3.  Decided to go with a single page HTML file
+4.  Decided to start with a base with my favorite exercise so far, the Bootstrap exercises.
+    Found the exercise that nicely arranged boxes based on various screen sizes, Boostrap Exercise 03-Grid
+    Copied over that completed exercise's HTML file and its associated CSS file
+    One issue that came up is there were two styles.css files, so I decided to combine them into one
+    My plan is to first make edits here, to outline all the 5 required sections and experiment with styles
+    before filling in any details about the sections.
