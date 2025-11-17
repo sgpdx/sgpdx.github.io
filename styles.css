@@ -31,7 +31,6 @@ body {
   color: var(--gray1);
 }
 
-.flex-item,
 .grid-item {
   padding: 10px;
   background-color: var(--purple);
@@ -42,11 +41,12 @@ body {
 
 .flex-item {
   width: 160px;
-  height: 80px;
-  margin: 10px;
+  height: 120px;
+  margin: 20px;
 }
 
-h1 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -59,11 +59,20 @@ form > * {
 }
 
 .row > * {
-  height: 160px;
+  height: 140px;
   border: 1px solid var(--white);
-  background-color: var(--purple);
-  color: var(--white);
-  font-size: 1.4em;
+  background-color: rgb(166, 195, 225);
+  color: var(--black);
+  font-size: 1em;
+}
+
+a:link {
+  color: blue; /* Sets the color for unvisited links */
+}
+
+/* Visited link */
+a:visited {
+  color: purple; /* Sets the color for visited links */
 }
 
 .box {

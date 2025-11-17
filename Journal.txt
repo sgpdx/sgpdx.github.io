@@ -2,7 +2,7 @@ Journal for Final Project
 Serena Glick / sglick@pdx.edu / sgpdx (GitHub)
 
 Friday Nov. 7
-----
+---
 1.  Took handwritten notes on the requirements of the project
 2.  Created sgpdx.github.io GitHub Pages site & repo
 3.  Decided to go with a single page HTML file
@@ -12,3 +12,13 @@ Friday Nov. 7
     One issue that came up is there were two styles.css files, so I decided to combine them into one
     My plan is to first make edits here, to outline all the 5 required sections and experiment with styles
     before filling in any details about the sections.
+
+Sunday Nov 16
+---
+1.  Separated the boxes into sections required by the project
+2.  Got logos for 2 organizations I'm most involved with (PSU & CSC)
+3.  Did accessbility check and fixed errors & warnings
+4.  Edited css styles a bit to find colors that had good contrast
+5.  Added headings and text areas for each of the sections, 
+    including list formatting for two of the sections
+6.  Put some basic info in each section; will expand later
