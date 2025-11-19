@@ -22,3 +22,11 @@ Sunday Nov 16
 5.  Added headings and text areas for each of the sections, 
     including list formatting for two of the sections
 6.  Put some basic info in each section; will expand later
+
+Tuesday Nov 18
+---
+1.  Added navbar and played around with associated .css settings
+2.  Played around with the color scheme of the site
+3.  Moved the icons to be in the resume section
+4.  Added proper email "mailto:" functionality with a pre-defined subject and body
+5.  For projects, added GitHub repo link and Github svg icon
