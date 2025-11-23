@@ -28,7 +28,8 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2em;
-  color: var(--gray1);
+  color: var(--white);
+  background-image: url("img/negative-space-blue-and-yellow-flowers.jpg");
 }
 
 .grid-item {
@@ -48,6 +49,11 @@ body {
 h1,
 h2 {
   text-align: center;
+  width: auto;
+  background-color: rgb(4, 4, 202);
+  border: 10px solid rgb(255, 251, 175); /* 1px width, solid style, red color */
+  padding: 15px; /* Space between the text and the border */
+  display: inline-block; /* Allows the border to wrap closely around content */
 }
 
 form {
@@ -59,20 +65,20 @@ form > * {
 }
 
 .row > * {
-  height: 340px;
+  height: 540px;
   border: 20px solid rgb(110, 130, 241);
   background-color: rgb(255, 251, 175);
   color: var(--black);
   font-size: 1em;
 }
 
-.mini-row > * {
+/* .mini-row > * {
   height: 80px;
   border: 20px solid rgb(110, 130, 241);
   background-color: rgb(255, 251, 175);
   color: var(--black);
   font-size: 1em;
-}
+} */
 
 a:link {
   color: blue; /* Sets the color for unvisited links */
@@ -117,11 +123,11 @@ nav ul li {
 nav ul li a {
   display: block;
   width: 100%;
-  padding: 0.5em;
+  padding: 1em;
   text-decoration: none;
   color: var(--white);
 }
 
 nav ul li a:hover {
-  background: var(--gray1);
+  background: rgb(253, 242, 22);
 }

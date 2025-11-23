@@ -30,3 +30,15 @@ Tuesday Nov 18
 3.  Moved the icons to be in the resume section
 4.  Added proper email "mailto:" functionality with a pre-defined subject and body
 5.  For projects, added GitHub repo link and Github svg icon
+
+Saturday Nov 22
+---
+1.  Made boxes longer
+2.  Moved Contact section to the bottom, to have more elements in it
+3.  Added headshot at top right with auto scaling for size
+4.  Added details to "About" and "Resume" section via bullet points
+5.  Added background image, and did WAVE to make sure there were no accessbility issues
+    -   It had a contrast issue with my h1 name & position at the top, so I styled it to have 
+        a solid box around it, in my signature colors of the pale yellow and blue
+    -   I fear I have inadvertenly 'borrowed' IKEA's color scheme for my own site, which is the 
+        website I've been investigating during the weekly discussion posts!
