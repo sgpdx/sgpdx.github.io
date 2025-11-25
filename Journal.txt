@@ -42,3 +42,14 @@ Saturday Nov 22
         a solid box around it, in my signature colors of the pale yellow and blue
     -   I fear I have inadvertenly 'borrowed' IKEA's color scheme for my own site, which is the 
         website I've been investigating during the weekly discussion posts!
+
+Tuesday Nov 25
+---
+1.  Tackled Firefox issue (CSS styles not showing up correctly).  It turns out it had an older 
+    CSS file cached, and a hard refresh (on Mac: command-shift-R) worked.  Phew!
+2.  Added modal as an "on the way to the contact form" button to prove humanness
+3.  Added contact.html to do the contact form, based on the Spongebob exercise but editing
+    the fields to be contact related (imaginging a recruiter reaching out)
+4.  Updated CSS styles for the contact.html page based on the WAVE audit (low contract errors)
+    and just visual appeal in general, to match my color scheme
+5.  Tested out the form (it submits to my @pdx.edu email)

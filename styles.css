@@ -56,6 +56,10 @@ h2 {
   display: inline-block; /* Allows the border to wrap closely around content */
 }
 
+.form {
+  color: var(--white);
+}
+
 form {
   width: 600px;
 }
@@ -71,14 +75,6 @@ form > * {
   color: var(--black);
   font-size: 1em;
 }
-
-/* .mini-row > * {
-  height: 80px;
-  border: 20px solid rgb(110, 130, 241);
-  background-color: rgb(255, 251, 175);
-  color: var(--black);
-  font-size: 1em;
-} */
 
 a:link {
   color: blue; /* Sets the color for unvisited links */
@@ -130,4 +126,26 @@ nav ul li a {
 
 nav ul li a:hover {
   background: rgb(253, 242, 22);
+}
+
+input[type="text"],
+input[type="email"] {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+  gap: 20px; /* Puts 20px of space between the label and input */
+  width: 350px; /* Sets a fixed width in pixels */
+  height: 30px; /* Sets a fixed height in pixels */
+  padding: 12px; /* Adds space inside the box around the text */
+  box-sizing: border-box; /* Ensures padding and border are included in the total width/height */
+}
+
+.form-container {
+  /* Sets the solid background color for the form container */
+  background-color: rgb(255, 251, 175);
+  color: var(--black);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  max-width: 400px;
+  margin: 50px auto; /* Centers the form on the page */
 }
