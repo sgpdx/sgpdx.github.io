@@ -58,3 +58,8 @@ Monday Dec 01
 ---
 1. Filled in "Projects" section and linked to personal GitHub Repository (not school one,
     though it contains my school projects from other classes)
+2. In Checking the 'requirements' document for the project, I realized I needed to have a 
+    separate .js file for the JavaScript elements. I considered moving my modal to a separate
+    file, but we used it in the HTML in the class exercises, and that's how the documentation
+    presents code examples as well, so I decided to do a different javascript functionality
+    and leave my modal code where it is.
