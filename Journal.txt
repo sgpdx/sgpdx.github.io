@@ -72,3 +72,4 @@ Monday Dec 01
     wanted to inbed a particular video, so I simplified the code to do that, just using the video id 
     that's found in the link of a YouTube Video
 5.  Edited the padding on the nav bar so that it all fits on one line at the smallest width
+6.  Updated ReadMe File based on project requirements
