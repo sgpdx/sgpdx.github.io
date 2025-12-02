@@ -119,7 +119,7 @@ nav ul li {
 nav ul li a {
   display: block;
   width: 100%;
-  padding: 1em;
+  padding: 0.5em;
   text-decoration: none;
   color: var(--white);
 }
@@ -148,4 +148,13 @@ input[type="email"] {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
   max-width: 400px;
   margin: 50px auto; /* Centers the form on the page */
+}
+
+.videoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  padding: 1rem;
 }

@@ -60,6 +60,15 @@ Monday Dec 01
     though it contains my school projects from other classes)
 2. In Checking the 'requirements' document for the project, I realized I needed to have a 
     separate .js file for the JavaScript elements. I considered moving my modal to a separate
-    file, but we used it in the HTML in the class exercises, and that's how the documentation
-    presents code examples as well, so I decided to do a different javascript functionality
-    and leave my modal code where it is.
+    file, but in the class exercises it's embedded into the HTML and that's how the Bootstrap
+    documentation presents code examples as well, so I decided "if it ain't broke, don't fix it"
+    and to do a different javascript functionality and leave my modal code where it is.
+3.  To address the .js file issue, I came across an idea about embedding a video via JavaScript,
+     so I added another flex box with the title "for fun" and added video.js file to embed a 
+     YouTube Video that would be a fun thing to end the project on.  I followed the tutorial
+     from this site: 
+     https://dev.to/juliafmorgado/automatically-embed-latest-youtube-videos-on-your-website-with-javascript-step-by-step-2i5e
+4.  After following the tutorial, I realized it was for embedding multiple "latest" videos, and I just
+    wanted to inbed a particular video, so I simplified the code to do that, just using the video id 
+    that's found in the link of a YouTube Video
+5.  Edited the padding on the nav bar so that it all fits on one line at the smallest width
