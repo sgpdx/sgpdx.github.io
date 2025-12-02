@@ -53,3 +53,8 @@ Tuesday Nov 25
 4.  Updated CSS styles for the contact.html page based on the WAVE audit (low contract errors)
     and just visual appeal in general, to match my color scheme
 5.  Tested out the form (it submits to my @pdx.edu email)
+
+Monday Dec 01
+---
+1. Filled in "Projects" section and linked to personal GitHub Repository (not school one,
+    though it contains my school projects from other classes)
