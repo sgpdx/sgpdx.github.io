@@ -1,0 +1,62 @@
+// Main application
+// Initial code outline from Fullstack/HW3
+// Edits and additional code by Serena Glick, Winter 2026
+
+const express = require("express");
+const app = express();
+const port = process.env.PORT || 5001;
+const {
+  getCapitalsData,
+  getPopulousData,
+  getRegionsData,
+} = require("./back-end.js");
+
+app.set("views", __dirname + "/views");
+app.set("view engine", "pug");
+app.use(express.static(__dirname + "/public"));
+
+app.get("/", (req, res) => {
+  res.render("index", {
+    title: "Main",
+    heading: "Welcome to the Main Page to learn about the World",
+  });
+});
+
+app.get("/wiki", async (req, res) => {
+  const capitalsData = await getCapitalsData();
+  res.render("page", {
+    title: "Capitals",
+    heading: "Countries and Capitals",
+    subheading: "You may be surprised at what you learn!",
+    data: capitalsData,
+  });
+});
+
+app.get("/battle", async (req, res) => {
+  const populousData = await getPopulousData();
+  res.render("page", {
+    title: "Populous",
+    heading: "Most Populous Countries",
+    subheading: "Countries with a population of at least 50 million people",
+    data: populousData,
+  });
+});
+
+app.get("/about", async (req, res) => {
+  const regionsData = await getRegionsData();
+  res.render("page", {
+    title: "Regions",
+    heading: "Regions of the World",
+    subheading: "Number of countries in each region",
+    data: regionsData,
+  });
+});
+
+// Page not found error handling
+app.use((req, res) => {
+  res.status(404).send("404 - page not found");
+});
+
+app.listen(port, () => {
+  console.log(`listening on port http://localhost:${port}`);
+});

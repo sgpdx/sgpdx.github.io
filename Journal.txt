@@ -1,75 +1,13 @@
-Journal for Final Project
+Journal for Full Stack Final Project
 Serena Glick / sglick@pdx.edu / sgpdx (GitHub)
 
-Friday Nov. 7
----
-1.  Took handwritten notes on the requirements of the project
-2.  Created sgpdx.github.io GitHub Pages site & repo
-3.  Decided to go with a single page HTML file
-4.  Decided to start with a base with my favorite exercise so far, the Bootstrap exercises.
-    Found the exercise that nicely arranged boxes based on various screen sizes, Boostrap Exercise 03-Grid
-    Copied over that completed exercise's HTML file and its associated CSS file
-    One issue that came up is there were two styles.css files, so I decided to combine them into one
-    My plan is to first make edits here, to outline all the 5 required sections and experiment with styles
-    before filling in any details about the sections.
+Early Feb, 2026
+- Saved a copy of my web dev project in a different repo, so I could overwrite this one
 
-Sunday Nov 16
----
-1.  Separated the boxes into sections required by the project
-2.  Got logos for 2 organizations I'm most involved with (PSU & CSC)
-3.  Did accessbility check and fixed errors & warnings
-4.  Edited css styles a bit to find colors that had good contrast
-5.  Added headings and text areas for each of the sections, 
-    including list formatting for two of the sections
-6.  Put some basic info in each section; will expand later
-
-Tuesday Nov 18
----
-1.  Added navbar and played around with associated .css settings
-2.  Played around with the color scheme of the site
-3.  Moved the icons to be in the resume section
-4.  Added proper email "mailto:" functionality with a pre-defined subject and body
-5.  For projects, added GitHub repo link and Github svg icon
-
-Saturday Nov 22
----
-1.  Made boxes longer
-2.  Moved Contact section to the bottom, to have more elements in it
-3.  Added headshot at top right with auto scaling for size
-4.  Added details to "About" and "Resume" section via bullet points
-5.  Added background image, and did WAVE to make sure there were no accessbility issues
-    -   It had a contrast issue with my h1 name & position at the top, so I styled it to have 
-        a solid box around it, in my signature colors of the pale yellow and blue
-    -   I fear I have inadvertenly 'borrowed' IKEA's color scheme for my own site, which is the 
-        website I've been investigating during the weekly discussion posts!
-
-Tuesday Nov 25
----
-1.  Tackled Firefox issue (CSS styles not showing up correctly).  It turns out it had an older 
-    CSS file cached, and a hard refresh (on Mac: command-shift-R) worked.  Phew!
-2.  Added modal as an "on the way to the contact form" button to prove humanness
-3.  Added contact.html to do the contact form, based on the Spongebob exercise but editing
-    the fields to be contact related (imaginging a recruiter reaching out)
-4.  Updated CSS styles for the contact.html page based on the WAVE audit (low contract errors)
-    and just visual appeal in general, to match my color scheme
-5.  Tested out the form (it submits to my @pdx.edu email)
-
-Monday Dec 01
----
-1. Filled in "Projects" section and linked to personal GitHub Repository (not school one,
-    though it contains my school projects from other classes)
-2. In Checking the 'requirements' document for the project, I realized I needed to have a 
-    separate .js file for the JavaScript elements. I considered moving my modal to a separate
-    file, but in the class exercises it's embedded into the HTML and that's how the Bootstrap
-    documentation presents code examples as well, so I decided "if it ain't broke, don't fix it"
-    and to do a different javascript functionality and leave my modal code where it is.
-3.  To address the .js file issue, I came across an idea about embedding a video via JavaScript,
-     so I added another flex box with the title "for fun" and added video.js file to embed a 
-     YouTube Video that would be a fun thing to end the project on.  I followed the tutorial
-     from this site: 
-     https://dev.to/juliafmorgado/automatically-embed-latest-youtube-videos-on-your-website-with-javascript-step-by-step-2i5e
-4.  After following the tutorial, I realized it was for embedding multiple "latest" videos, and I just
-    wanted to inbed a particular video, so I simplified the code to do that, just using the video id 
-    that's found in the link of a YouTube Video
-5.  Edited the padding on the nav bar so that it all fits on one line at the smallest width
-6.  Updated ReadMe File based on project requirements
+Sunday February 8, 2026
+- Deleted unneeded files and added new files using HW 3 as a base for code to start with 
+(using Pug, Express.js)
+- Using GitHub Copilot, figured out how to convert this code into one that can run via github.io,
+since we aren't using "node app.js" to run it anymore, like we did in HW3.
+It suggested a build.js file, and then I need to run "npm run build" 
+to create the html pages based on the pug templates
