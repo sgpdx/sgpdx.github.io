@@ -11,3 +11,10 @@ Sunday February 8, 2026
 since we aren't using "node app.js" to run it anymore, like we did in HW3.
 It suggested a build.js file, and then I need to run "npm run build" 
 to create the html pages based on the pug templates
+
+Saturday February 14, 2026
+- Set up all the pages with their pug templates and a basic outline for the page with
+headings, placeholder flex or text boxes, etc.  Ran "npm run build" to set up the .html
+- Testing the site constantly with nodemon
+- Starting to play around with styles to make the Navbar Green to be on the 'plants' theme
+- Next steps, I need to figure out how to bring in the API Data dynamically

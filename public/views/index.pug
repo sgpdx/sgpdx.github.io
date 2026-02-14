@@ -9,7 +9,7 @@ html(lang="en")
     main.container
       h1 #{heading}
       section.text Welcome to the #{title} page!
-      img(src='/img/free-photo-earth.jpg' alt='image of the Earth from space' width='250' height='250')
-      section.text This website was built with Pug templates, Express, and API data from: 
-      a(href="https://restcountries.com/") Rest Countries API
+      .flexbox-container
+        a.item1(href="/wiki") Wiki
+        a.item2(href="/battle") Battle
     include includes/footer.pug
