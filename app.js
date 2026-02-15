@@ -6,9 +6,9 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 5001;
 const {
-  getCapitalsData,
-  getPopulousData,
-  getRegionsData,
+  getPlantsData,
+  getZombiesData,
+  getAreasData,
 } = require("./back-end.js");
 
 app.set("views", "./public/views");
@@ -23,21 +23,33 @@ app.get("/", (req, res) => {
 });
 
 app.get("/wiki", async (req, res) => {
-  const capitalsData = await getCapitalsData();
   res.render("wiki");
 });
 
+app.get("/plants", async (req, res) => {
+  const plantsData = await getPlantsData();
+  res.render("plants");
+});
+
+app.get("/zombies", async (req, res) => {
+  const zombiesData = await getZombiesData();
+  res.render("zombies");
+});
+
+app.get("/wiki", async (req, res) => {
+  const areasData = await getAreasData();
+  res.render("areas");
+});
+
 app.get("/battle", async (req, res) => {
-  const populousData = await getPopulousData();
   res.render("battle");
 });
 
 app.get("/about", async (req, res) => {
-  const regionsData = await getRegionsData();
   res.render("about");
 });
 
-// Page not found error handling
+// Other Routes - Error Handling
 app.use((req, res) => {
   res.status(404).send("404 - page not found");
 });
