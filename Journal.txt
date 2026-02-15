@@ -27,5 +27,9 @@ but looking back over the instructions, that's option 1:
 I specifically chose option 2 which is just using an API: 
 "Build a front-end and a back-end, and use a third-party API on the back-end"
 So, that's a relief.  I need to focus more on my back-end and calling the API next.
-- A classmate for HW3 suggested caching the API data, which is a great idea, so I keep that in mind.
+- A classmate for HW3 suggested caching the API data, which is a great idea, so I added that here
+just like how I updated my code in HW 3 (check for cached data before calling the API)
 - Removed tracking of the "node_modules" folder from github and added to .gitignore
+- Removed all traces of HW3 API data, replaced it with PVZ API Data
+- More styling on the flexboxes for the wiki & home page
+- 
