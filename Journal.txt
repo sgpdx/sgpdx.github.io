@@ -18,3 +18,14 @@ headings, placeholder flex or text boxes, etc.  Ran "npm run build" to set up th
 - Testing the site constantly with nodemon
 - Starting to play around with styles to make the Navbar Green to be on the 'plants' theme
 - Next steps, I need to figure out how to bring in the API Data dynamically
+
+Sunday Feburary 15, 2025
+- Went back over the requirements for the project and realized that I don't actually have to use a database!
+I remember the professor saying we needed to create an API and a Database during our Zoom Check-in call, 
+but looking back over the instructions, that's option 1: 
+"Build a front-end, back-end, and an API, implementing calls to create, update, and delete items from a database"
+I specifically chose option 2 which is just using an API: 
+"Build a front-end and a back-end, and use a third-party API on the back-end"
+So, that's a relief.  I need to focus more on my back-end and calling the API next.
+- A classmate for HW3 suggested caching the API data, which is a great idea, so I keep that in mind.
+- Removed tracking of the "node_modules" folder from github and added to .gitignore
